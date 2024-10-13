@@ -1,11 +1,7 @@
-name: 'The name of your action here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
-
-# Add your action's branding here. This will appear on the GitHub Marketplace.
-branding:
-  icon: 'heart'
-  color: 'red'
+name: 'GitHub notice to Slack'
+description:
+  'This workflow is triggered by the opening of a pull request and notifies
+  users assigned as reviewers via mention on Slack.'
 
 # Define your inputs here.
 inputs:
